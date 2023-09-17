@@ -1,0 +1,122 @@
+body{
+    font-family: Arial;
+    margin: 0 auto;
+    background-color: #f8ebf7;
+}
+
+header {
+    background-color:#6C4AB6;
+    width: 100%;
+}
+header img {
+    margin: 1%;
+}
+header .hf{
+    float: right;
+    margin: 1.5%;
+}
+header .hi{
+    background-color: #e9bcff;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    transition-duration: 0.5s; 
+    padding: 8px 30px;
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+    margin-top: 15%;
+}
+header .hi:hover{
+    background-color: #c972e1;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+tr{background-color: #f8ebf7;}
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #6C4AB6;
+    color: white;
+}
+table .btn{
+    background-color: #d064ff;
+    border: none;
+    text-align: center;
+    transition-duration: 0.5s; 
+    padding: 8px 30px;
+    cursor: pointer;
+    color: #8D9EFF;
+    margin-top: 5%;
+}
+table .btn:hover{
+    background-color: #e3e3e3;
+    color: #ec7115;
+}
+
+.button{
+    background-color: #da90ff;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    transition-duration: 0.5s; 
+    padding: 8px 30px;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 5%;
+    font-weight: bold;
+}
+.button:hover {
+    background-color: rgb(255, 102, 240);
+    color: #000;
+}
+.cbtn{
+    background-color: #e9bcff;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    transition-duration: 0.5s; 
+    padding: 8px 30px;
+    cursor: pointer;
+    color: #000;
+    font-weight: bold;
+}
+.cbtn:hover{
+    background-color: #8D9EFF;
+}
+
+form{
+	margin-top: 2%;
+}
+input[type=text], input[type=password]{	
+	width: 100%;
+	padding: 12px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border: 2px solid #8D9EFF;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    border: 2px solid #6C4AB6;
+}
+textarea {
+	outline: none;
+	border: 2px solid #8D9EFF;
+}
+textarea:focus {
+	border: 2px solid #6C4AB6;
+}
+
+.container {
+	width: 55%;
+    border-radius: 5px;
+    background-color: #b7c2ff;
+    padding: 20px;
+    margin: 0 auto;
+}
